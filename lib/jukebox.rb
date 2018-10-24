@@ -50,11 +50,11 @@ loop do
   input = gets.chomp
   case input 
   when 'play'
-    play(songs)
+    play(my_songs)
     when 'help'
       help
       when 'list'
-        list(songs)
+        list(my_songs)
         when 'exist'
           break
         end
