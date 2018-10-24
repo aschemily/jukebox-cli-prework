@@ -31,7 +31,7 @@ my_songs.each_with_index do  |song, location|
   puts "Playing #{my_songs[index]}"
   valid = true 
   elsif (user_response == song)
-  puts "Playing #{choice}"
+  puts "Playing #{user_response}"
   valid = true 
   end
 end 
