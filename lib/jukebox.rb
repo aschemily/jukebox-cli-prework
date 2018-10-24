@@ -34,7 +34,7 @@ if user_response == "list"
 list(my_songs)
 play(my_songs)
 else
-puts "Invalid input, please try again."
+puts "Invalid input, please try again:"
 play(my_songs)
   end
 end 
