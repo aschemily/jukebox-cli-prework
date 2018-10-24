@@ -25,6 +25,7 @@ end
 def play(my_songs)
 puts "Please enter a song name or number:"
 user_response = gets.chomp
+valid = false 
 my_songs.each {|song, location|
   if user_response == song 
   system 'open ' + location 
