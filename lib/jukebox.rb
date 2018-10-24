@@ -27,7 +27,7 @@ puts "Please enter a song name:"
 user_response = gets.chomp
 my_songs.each {|song, location|
   if user_response == song 
-  system 'open' + location 
+  system 'open ' + location 
 end
 }
 if user_response == "list"
