@@ -35,7 +35,8 @@ my_songs.each_with_index do  |song, location|
   valid = true 
   end
 end 
-puts "Invalid input, please try again" if valid == 
+puts "Invalid input, please try again" if valid == false
+end
 
 if user_response == "list"
 list(my_songs)
