@@ -56,6 +56,7 @@ loop do
       when 'list'
         list(my_songs)
         when 'exit'
+          
           break
         end
       end
