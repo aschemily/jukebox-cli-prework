@@ -55,7 +55,7 @@ loop do
       help
       when 'list'
         list(my_songs)
-        when 'exist'
+        when 'exit'
           break
         end
       end
