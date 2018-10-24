@@ -29,6 +29,7 @@ valid = false
 my_songs.each_with_index do  |song, location|
   if user_response.to_i - 1 == location 
   puts "Playing #{songs[index]}"
+  valid = true 
 end
 
 if user_response == "list"
