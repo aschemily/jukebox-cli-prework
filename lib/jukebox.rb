@@ -30,7 +30,11 @@ my_songs.each_with_index do  |song, location|
   if user_response.to_i - 1 == location 
   puts "Playing #{songs[index]}"
   valid = true 
-end
+  elsif (user_response == song)
+  puts "Playing #{choice}"
+  valid = true 
+  end
+end 
 
 if user_response == "list"
 list(my_songs)
