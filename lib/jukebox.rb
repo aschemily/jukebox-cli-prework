@@ -28,7 +28,7 @@ user_response = gets.chomp
 valid = false 
 my_songs.each_with_index do  |song, location|
   if user_response.to_i - 1 == location 
-  puts "Playing #{my_songs[locarion]}"
+  puts "Playing #{my_songs[location]}"
   valid = true 
   elsif (user_response == song)
   puts "Playing #{user_response}"
